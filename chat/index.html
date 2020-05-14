@@ -19,6 +19,7 @@
         <!-- main css -->
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/responsive.css">
+        <link rel="stylesheet" href="../css/privacy-policy.css">
     </head>
     <body>
         
@@ -152,8 +153,24 @@
         	</div>
         </section>
         <!--================End Welcome Area =================-->
-        
-       
+		
+		<div id="grid">
+			<div class="img"></div>
+
+			<div id="wrapper-privacy-policy">
+				<p>
+					Um mit mir chatten zu können, müsst ihr zunächst die
+					<a href="/datenschutz" title="Datenschutzerklärung">
+						Datenschutzerklärung
+					</a>
+					gelesen und akzeptiert haben.
+					<div id="wrapper-checkbox-privacy-policy">
+						<input type="checkbox" id="checkbox-privacy-policy">
+						<label for="checkbox-privacy-policy">akzeptieren</label>
+					</div>
+				</p>
+			</div>
+		</div>
         
         <!--================Footer Area =================-->
         <footer class="footer_area p_120">
@@ -201,6 +218,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="../vendors/counter-up/jquery.counterup.min.js"></script>
         <script src="../js/mail-script.js"></script>
         <script src="../js/theme.js"></script>
-        <script src="https://account.snatchbot.me/script.js"></script><script>window.sntchChat.Init(52517)</script>
+		<script src="https://account.snatchbot.me/script.js"></script>
+		<script src="../js/privacy-policy.js"></script>
     </body>
 </html>

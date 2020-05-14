@@ -1,0 +1,67 @@
+#wrapper-privacy-policy {
+    background-color: darkgrey;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 16px;
+    width: 270px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background-image: linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    grid-area: box;
+}
+
+#wrapper-privacy-policy p,
+#wrapper-privacy-policy label {
+    margin-bottom: 0;
+    color: #424242;
+}
+
+#wrapper-privacy-policy label {
+    cursor: pointer;
+}
+
+#wrapper-privacy-policy label:hover,
+#wrapper-privacy-policy label:focus,
+#wrapper-privacy-policy label:active {
+    color: #1a1a1a;
+}
+
+#wrapper-privacy-policy p a {
+    color: #002b58;
+    font-weight: bold;
+}
+
+#wrapper-checkbox-privacy-policy{
+    float: right;
+    margin-top: 8px;
+}
+
+#wrapper-privacy-policy.fade-out {
+    display: none;
+}
+
+
+#grid {
+    display: grid;
+    grid-template-columns: 50px 270px;
+    grid-template-rows: 50px auto;
+    grid-template-areas: 
+        'img .'
+        '. box'
+    ;
+    width: 320px;
+    bottom: 16px;
+    right: 16px;
+    z-index: 1000;
+    position: fixed;
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    grid-area: img;
+    background-image: url('../img/personal copy.jpg');
+    background-size: cover;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
