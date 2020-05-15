@@ -55,6 +55,10 @@
     position: fixed;
 }
 
+#grid.fade-out {
+    display: none;
+}
+
 .img {
     height: 50px;
     width: 50px;
