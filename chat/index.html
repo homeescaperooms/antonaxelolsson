@@ -154,23 +154,15 @@
         </section>
         <!--================End Welcome Area =================-->
 		
-		<div id="grid">
-			<div class="img"></div>
-
-			<div id="wrapper-privacy-policy">
-				<p>
-					Um mit mir chatten zu können, müsst ihr zunächst die
-					<a href="/Datenschutz.html" title="Datenschutzerklärung">
-						Datenschutzerklärung
-					</a>
-					gelesen und akzeptiert haben.
-					<div id="wrapper-checkbox-privacy-policy">
-						<input type="checkbox" id="checkbox-privacy-policy">
-						<label for="checkbox-privacy-policy">akzeptieren</label>
-					</div>
-				</p>
-			</div>
-		</div>
+<script defer>
+  function loadChatWidget() {
+	chatteron.init({
+	clientId: "RVihwaz55yccZ6qUfcOdT"
+  });
+}
+</script>
+<script defer src="https://web.leena.ai/scripts/sdk.js" onload="loadChatWidget();">
+</script>
         
         <!--================Footer Area =================-->
         <footer class="footer_area p_120">
