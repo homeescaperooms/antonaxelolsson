@@ -110,5 +110,5 @@ window.ESCAPE_CHATBOT_DATA = {
       "displaySolution": "31"
     }
   ],
-  "finalMessage": "Gut gemacht, jetzt kann ich euch trauen. Steigt in die Buslinie 66 ein und fahrt Richtung Tengdahlsgatan. Wir sehen uns dort!"
+  "finalMessage": "Gut gemacht, jetzt kann ich euch trauen. Steigt in die Buslinie 66 ein und fahrt Richtung Tengdahlsgatan. Wir sehen uns dort! Kehrt [url=https://locked-games.de/kapitel-loesung/Cukufs7DTXSIcXtq90QJ8Bj8wazcGDqC]HIER[/url] zurück ins Spiel und gebt die richtige Lösung ein."
 };
