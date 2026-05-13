@@ -110,5 +110,5 @@ window.ESCAPE_CHATBOT_DATA = {
       "displaySolution": "31"
     }
   ],
-  "finalMessage": "Gut gemacht, jetzt kann ich euch trauen. Hier geht es weiter: [url=https://locked-games.de/kapitel-loesung/qp3nU92atB2SmNAiTXHHoNTAFKSaLLGT]KAPITEL 4[/url]"
+  "finalMessage": "Gut gemacht, jetzt kann ich euch trauen. Steigt in die Buslinie 66 ein und fahrt Richtung Tengdahlsgatan. Wir sehen uns dort!"
 };
